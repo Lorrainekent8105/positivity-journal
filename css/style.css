@@ -58,6 +58,7 @@ textarea {
     height: 100px;
     padding: 1rem;
     font-family: 'Libre Baskerville', serif;
+    margin-bottom: 1.5rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
