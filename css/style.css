@@ -1,34 +1,34 @@
 
 body {
-    background-color: #f4f1ea;
-    font-family: 'Libre Baskerville', serif;
-    color: #2e2e2e;
-    margin: 0;
-    padding: 0;
+  background-color: #1b1a17;
+  font-family: 'Libre Baskerville', serif;
+  color: #eee;
+  margin: 0;
+  padding: 0;
 }
 
 .candle-glow {
-    position: fixed;
-    top: -100px;
-    left: 50%;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(255, 200, 150, 0.1) 0%, transparent 70%);
-    transform: translateX(-50%);
-    animation: flicker 4s infinite ease-in-out;
-    pointer-events: none;
-    z-index: 0;
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(255, 200, 120, 0.15) 0%, transparent 70%);
+  transform: translateX(-50%);
+  animation: flicker 3s infinite ease-in-out;
+  z-index: 0;
+  pointer-events: none;
 }
 
 @keyframes flicker {
-    0%, 100% {
-        opacity: 0.08;
-        transform: translateX(-50%) scale(1);
-    }
-    50% {
-        opacity: 0.2;
-        transform: translateX(-50%) scale(1.03);
-    }
+  0%, 100% {
+    opacity: 0.1;
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: translateX(-50%) scale(1.04);
+  }
 }
 
 .container {
